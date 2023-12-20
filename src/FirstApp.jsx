@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 // const newName = (name) => {
 //   return `Hello ${name}`
 // }
@@ -13,4 +13,9 @@ export const FirstApp = ({ title, subTitle }) => {
       <h3 className="text-3xl text-teal-50">{ subTitle }</h3>
     </>
   )
+}
+
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired
 }
