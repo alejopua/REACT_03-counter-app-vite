@@ -1,6 +1,10 @@
+import { FirstApp } from "./FirstApp"
 
 export const HelloWorldApp = () => {
   return (
-    <h1>HelloWorld App</h1>
+    <>
+      <h1>HelloWorld App</h1>
+      <FirstApp />
+    </>
   )
 }
