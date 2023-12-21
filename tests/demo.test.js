@@ -1,7 +1,6 @@
 
-// eslint-disable-next-line no-undef
 describe('First Test in <DemoComponent />', () => {
-  // eslint-disable-next-line no-undef
+
   test('This test should pass', () => {
     // 1. inicialización
     const msg1 = 'Hola Mundo';
