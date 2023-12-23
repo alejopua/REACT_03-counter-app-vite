@@ -25,7 +25,7 @@ export const CounterApp = ({ value }) => {
     <div className='h-screen flex flex-col justify-center items-center'>
 
       <h1 className="text-6xl font-bold text-teal-50">Counter App</h1>
-      <h2 className="text-4xl font-bold text-red-500"> { count } </h2>
+      <h2 className="text-4xl font-bold text-red-500" data-testid='counter-value'> { count } </h2>
 
       <div className='flex bg-[#778da9] mt-1 p-3 rounded-md gap-x-2'>
       <button 
@@ -52,7 +52,7 @@ export const CounterApp = ({ value }) => {
 }
 
 CounterApp.propTypes = {
-  value: PropTypes.string.isRequired
+  value: PropTypes.number.isRequired
 }
 
 CounterApp.defaultProps = {

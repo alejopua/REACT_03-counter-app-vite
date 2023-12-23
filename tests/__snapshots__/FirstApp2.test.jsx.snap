@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <FirstApp /> should match with snapshot 1`] = `
+<div>
+  <h1
+    class="text-6xl font-bold text-teal-50"
+    data-testid="test-principalTitle"
+  >
+    Hi, I am Alejandro
+  </h1>
+  <h2
+    class="text-6xl font-bold text-teal-50"
+  >
+    No title
+  </h2>
+  <h3
+    class="text-6xl font-bold text-teal-50"
+  >
+    No title
+  </h3>
+  <h4
+    class="text-3xl text-teal-50"
+  >
+    No sub-title
+  </h4>
+</div>
+`;
